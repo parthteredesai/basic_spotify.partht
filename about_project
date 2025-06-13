@@ -1,0 +1,29 @@
+🎧 Spotify Frontend UI Clone (HTML + CSS)
+A static front-end clone of the Spotify web app, built using pure HTML and CSS. This project mimics the visual layout of the Spotify interface — including the sidebar, sticky navigation, music cards, and footer music player — to practice responsive design, Flexbox, and modern UI layout techniques.
+
+🔍 Project Overview
+This clone focuses on the user interface only, without any backend functionality. It's perfect for beginners wanting to improve their HTML/CSS skills by building real-world layouts.
+
+Key Highlights:
+
+Sidebar with navigation and library panel
+Sticky navigation bar with search and user icons
+Responsive card sections (Recently Played, Trending, Featured)
+Footer music player UI with controls
+Mobile responsiveness via media queries
+Custom styling with Google Fonts and Font Awesome icons
+
+📁 File Structure
+proj.html – The main HTML structure
+projstyle.css – Custom styling for layout and components
+/asSets/ – (Assumed) folder for icons and images
+
+🚀 How to Use
+Clone or download the repository
+Make sure the assets folder is correctly placed with required images
+Open proj.html in your browser to view the UI
+
+📜 License
+NONE
+
+This project is a personal UI practice clone and is not affiliated with Spotify.
