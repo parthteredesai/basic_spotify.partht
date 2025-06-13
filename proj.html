@@ -1,0 +1,181 @@
+<!-- 
+     basic frontend project
+     clone of spotify web page
+     used tech- HTML5 & CSS3
+     dated : 13 june 2025
+     PARTH.T.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="projstyle.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>SPOTIFY-BY PARTH.T.</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navopt">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navopt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="libopt">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lbox">
+                    <div class="box1">
+                        <div class="box1p1">Create your first playlist</div>
+                        <div class="box1p2">It's easy, we will help you</div>
+                        <button class="box1-badge">Create playlist</button>
+                    </div>
+                    <div class="box1">
+                        <div class="box1p1">Find new podcast to follow</div>
+                        <div class="box1p2">We will keep you updated about new episodes</div>
+                        <button class="box1-badge">Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainc">
+            <div class="stickynav">
+                <div class="i1">
+                  <img src="./assets/backward_icon.png">
+                  <img src="./assets/forward_icon.png" class="hide">
+                  <input type="text" placeholder="search your music" class="search">
+                </div>
+                <div class="i2">
+                  <button class="navbadge1 hide">Explore premium</button>
+                  <button class="navbadge2">
+                    <i class="fa-solid fa-circle-down"></i>
+                    Install app
+                </button>
+                <i class="fa-solid fa-user" id="user"></i>
+                </div>
+            </div>
+
+            <h2>Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                        <img src="./assets/card1img.jpeg" class="cardimg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+            </div>
+  
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                        <img src="./assets/card2img.jpeg" class="cardimg">
+                        <p class="card-title">Wanna be yours</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+                <div class="card">
+                        <img src="./assets/card3img.jpeg" class="cardimg">
+                        <p class="card-title">Top 50 - INDIA</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+                <div class="card">
+                        <img src="./assets/card4img.jpeg" class="cardimg">
+                        <p class="card-title">Your favourites</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+                <div class="card">
+                        <img src="./assets/card3img.jpeg" class="cardimg">
+                        <p class="card-title">Indian Classical</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+                <div class="card">
+                        <img src="./assets/card5img.jpeg" class="cardimg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+            </div>
+            
+            <h2>Featured charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                        <img src="./assets/card4img.jpeg" class="cardimg">
+                        <p class="card-title">Most listened</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+                <div class="card">
+                        <img src="./assets/card5img.jpeg" class="cardimg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+                <div class="card">
+                        <img src="./assets/card6img.jpeg" class="cardimg">
+                        <p class="card-title">Top 50 - INDIA</p>
+                        <p class="card-info"> Your daily updates about most played songs</p>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <div class="footer">
+                <div class="footerline">
+                    coded&nbsp;
+                    <i class="fa-solid fa-code"></i> &nbsp;by PARTH TEREDESAI&nbsp;&nbsp;
+                    <i class="fa-solid fa-heart" style="color: rgb(248, 32, 194);"></i>
+                </div>
+            </div>
+        </div>
+        <div class="musicplayer">
+            <div class="play">
+                <img src="./assets/card6img.jpeg">
+                <div class="disc">
+                  <p class="songname">Snowman</p>
+                  <p class="singer">Sia</p>
+                </div>
+                <div class="add">
+                  <i class="fa-solid fa-heart a1"></i>
+                  <i class="fa-solid fa-laptop a2"></i>
+                </div>
+            </div>
+
+            <div class="control">
+                <div class="upc">
+                  <img src="./assets/player_icon1.png">
+                  <img src="./assets/player_icon2.png">
+                  <img src="./assets/player_icon3.png" class="pc">
+                  <img src="./assets/player_icon4.png">
+                  <img src="./assets/player_icon5.png">
+                </div>
+                <div class="downc">
+                   <span>1:56</span>
+                   <input type="range" min="0" max="100" class="bar">
+                   <span>34:33</span>
+                </div>
+            </div>
+
+            <div class="msopt">
+                <i class="fa-solid fa-circle-play b1"></i>
+                <i class="fa-solid fa-pen-to-square b2"></i>
+                <i class="fa-solid fa-bookmark b3"></i>
+                <i class="fa-solid fa-tablet b4"></i>
+                <i class="fa-solid fa-volume-high b5"></i>
+                <input type="range" class="b6">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
